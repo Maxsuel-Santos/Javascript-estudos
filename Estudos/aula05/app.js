@@ -22,7 +22,7 @@
 
 * slice(); => Fatia uma determinada string. Você escolhe a partir de quais índices começam e terminam a string. Ex: variavel.slice(2, 6); (teste com valores negativos também) -> Começa no índice 2 e termina no 6 (OBS: O valor do índice 6 não será contabilizado, será apenas até o índice 5, o 6 é onde para sem mostrar o valor). Valores negativos tem a ordem inversa.
 
-* split(); => Divide a string e retorna em array. Por exemplo: variavel.split("r"); -> A variavel será "cortada/separada" a cada "r" encontrado, sendo o "r" não incluso na string final.
+* split(); => Divide a string e retorna em array. Por exemplo: variavel.split("r"); -> A variavel será "cortada/separada" a cada "r" encontrado, sendo o "r" não incluso na string final. variavel.split("r", 2); -> Vai "cortar/separar" a string a cada "r" encontrado apenas 2 vezes. 
 
 */ 
 
@@ -42,4 +42,11 @@ console.log(textin.replace("T ", ""));
 
 
 let classico = 'O rato roeu a roupa do rei de roma enquanto o coitado estava dormindo.';
-console.log('\n\n', classico.replace(/o/g, "#"), classico.length);
+
+console.log('\n\n');
+
+console.log(classico.replace(/o/g, "#"), classico.length);
+
+console.log('\n\n');
+
+console.log(classico.split("o"));
