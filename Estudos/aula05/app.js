@@ -29,4 +29,4 @@ console.log(texto.charAt(4)); // Exibe a letra "o." Dessa vez usando o charAt();
 //            0123456789
 let textin = "Um T Texto";
 console.log(textin.indexOf("T"));
-console.log(textin.indexOf("T"));
+console.log(textin.replace("T ", ""));
