@@ -17,11 +17,16 @@ console.log(texto.charAt(4)); // Exibe a letra "o." Dessa vez usando o charAt();
 
 * lastIndexOf(); => Semelhante ao indeOf();, porém a única diferença é que este começa do último índice a vai até o índice 0, o oposto de seu irmão indexOf();. O resultado é o mesmo do indexOf(); se usar um só valor e não usar vírgula dentro dos ().
 
-* 
+* match(/[a-z]/g); => Retorna um array de a-z das letras minúsculas de uma string (encontra os termos de a-z).
+
+* search(); => Encontra um termo específico. Ex: search(\x\); -> Procura o "x".
+
+* replace(); => Substitui um termo por outro. Ex: console.log(variavel.replace("troca esse", "por esse"));
 
 */
 
 
 //            0123456789
 let textin = "Um T Texto";
+console.log(textin.indexOf("T"));
 console.log(textin.indexOf("T"));
