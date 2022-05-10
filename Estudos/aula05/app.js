@@ -20,7 +20,9 @@
 
 * length => Retorna o tamanho da string, ou seja, a quantidade de índices/caracteres.
 
-* slice(); => Fatia uma determinada string. Você escolhe a partir de quais índices começam e terminam a string. Ex: variavel.slice(2, 6); -> Começa no índice 2 e termina no 6 (OBS: O valor do índice 6 não será contabilizado, será apenas até o índice 5, o 6 é onde para sem mostrar o valor). Valores negativos tem a ordem inversa.
+* slice(); => Fatia uma determinada string. Você escolhe a partir de quais índices começam e terminam a string. Ex: variavel.slice(2, 6); (teste com valores negativos também) -> Começa no índice 2 e termina no 6 (OBS: O valor do índice 6 não será contabilizado, será apenas até o índice 5, o 6 é onde para sem mostrar o valor). Valores negativos tem a ordem inversa.
+
+*  => .
 
 */ 
 
