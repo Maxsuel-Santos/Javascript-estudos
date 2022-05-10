@@ -1,10 +1,3 @@
-//           012345
-let texto = "Hello!";
-
-console.log(texto[4]); // Exibe a letra "o".
-
-console.log(texto.charAt(4)); // Exibe a letra "o." Dessa vez usando o charAt();
-
 /*
 
 *** FUNÇÕES STRING ***
@@ -25,6 +18,14 @@ console.log(texto.charAt(4)); // Exibe a letra "o." Dessa vez usando o charAt();
 
 */
 
+/* *********************************************************************************** */
+
+//           012345
+let texto = "Hello!";
+
+console.log(texto[4]); // Exibe a letra "o".
+
+console.log(texto.charAt(4)); // Exibe a letra "o." Dessa vez usando o charAt();
 
 //            0123456789
 let textin = "Um T Texto";
