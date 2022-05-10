@@ -18,6 +18,8 @@
 
 * P.S: Você pode usar expressões regulares ao invés de um texto dentro de aspas. Ex: "Esse texto" é o mesmo que /Esse texto/. Você usa as barras. Usa isso nas funções strings acima.
 
+* length => Retorna o tamanho da string, ou seja, a quantidade de índices/caracteres.
+
 */
 
 /* *********************************************************************************** */
@@ -33,3 +35,7 @@ console.log(texto.charAt(4)); // Exibe a letra "o." Dessa vez usando o charAt();
 let textin = "Um T Texto";
 console.log(textin.indexOf("T"));
 console.log(textin.replace("T ", ""));
+
+
+let classico = 'O rato roeu a roupa do rei de roma enquanto o coitado estava dormindo.';
+console.log('\n\n', classico.replace(/o/g, "#"), classico.length);
