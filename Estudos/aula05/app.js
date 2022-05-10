@@ -53,4 +53,4 @@ console.log(classico.replace(/o/g, "#"), classico.length);
 
 console.log('\n\n');
 
-console.log(classico.split("o"));
+console.log(classico.split(" "));
