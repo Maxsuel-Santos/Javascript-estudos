@@ -24,6 +24,10 @@
 
 * split(); => Divide a string e retorna em array. Por exemplo: variavel.split("r"); -> A variavel será "cortada/separada" a cada "r" encontrado, sendo o "r" não incluso na string final. variavel.split("r", 2); -> Vai "cortar/separar" a string a cada "r" encontrado apenas 2 vezes. 
 
+* toUpperCase(); => Retorna a string toda em letras MAIÚSCULAS.
+
+* toLowerCase(); => Retorna a string toda em letras minúsculas.
+
 */ 
 
 /* *********************************************************************************** */
