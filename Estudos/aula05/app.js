@@ -16,6 +16,8 @@
 
 * replace(); => Substitui um termo por outro. Ex: console.log(variavel.replace("troca esse", "por esse"));
 
+* P.S: Você pode usar expressões regulares ao invés de um texto dentro de aspas. Ex: "Esse texto" é o mesmo que /Esse texto/. Você usa as barras. Usa isso nas funções strings acima.
+
 */
 
 /* *********************************************************************************** */
