@@ -26,6 +26,8 @@ OBS: Você pode obter a raíz quadrada de outra forma:
 
 OBS: No JS a divisão por zero (0) é válida, gerando um tipo infinity como resultado, ou seja, infinito, uma vez que o resultado é enooooooorrrmeeee. Fique atento(a)!
 
+* BÔNUS: Number.isInteger(); => Retorna em true (1) ou false (-1) se um valor bruto ou proveniente de uma variável/constante é inteiro ou não (dentro dos parênteses vai a variável ou o valor).
+
 */
 
 let n = 9.5;
