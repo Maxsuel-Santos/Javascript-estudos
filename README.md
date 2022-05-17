@@ -1,2 +1,2 @@
 # Javascript-estudos
- Estudos sobre JavaScript (ES6)
+ Estudos sobre Html, Css, JavaScript (ES6), TypeScript, React, Node e etc.
