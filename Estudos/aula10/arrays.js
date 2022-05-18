@@ -22,7 +22,7 @@ OBS: No JavaScript, todo array é um objeto.
 
 * .sort() => Retorna os valores do array (números e/ou strings) em ordem crescente. Sobrescreve a matriz original.
 
-OBS: Use variavelArray.sort(function(a, b){return a-b}) para o método sort() por em ordem crescente os números de um vetor. Ex: nums.sort(function(a, b){return a-b});
+OBS: Use variavelArray.sort(function(a, b){return a-b}) para o método sort() por em ordem crescente os números de um vetor. Ex: nums.sort(function(a, b){return a-b}); . Use isso caso o .sort() não resolva.
 
 * .reverse() => Retorna os valores do array (números e/ou strings) em ordem decrescente. Sobrescreve a matriz original.
 
@@ -102,7 +102,7 @@ console.log(alf);
 console.log("\n\n"); // **************************
 
 const points = [40, 100, 1, 5, 25, 10];
-points.sort(function(a, b){return a-b});
+points.sort(function(a, b){return a-b}); // points em ordem crescente (números). 
 console.log(points);
 
 console.log("\n\n"); // **************************
