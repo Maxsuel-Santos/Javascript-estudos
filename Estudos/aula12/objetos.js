@@ -22,19 +22,64 @@ console.log("\n") // *********************
 
 function createPerson(name, lastName, years) {
     return {
-        name: name,
+        name: name,  
         lastName: lastName,
         years: years
     };
 }
 
 const pessoa1 = createPerson("Maxsuel", "Santos", 17);
+const pessoa2 = createPerson("Andreza", "Lima", 21);
 
-console.log(pessoa1.name);
-console.log(pessoa1.lastName);
-console.log(pessoa1.years);
+console.log(`${pessoa1.name} ${pessoa1.lastName} tem ${pessoa1.years} anos.`);
+
+console.log("\n") // ***************
+
+console.log(`${pessoa2.name} ${pessoa2.lastName} tem ${pessoa2.years} anos.`);
 
 /* (ACIMA) Usou uma função para retornar um objeto. */
 
 /* OBS: Os parâmetros recebem os valores dos argumentos. Os parâmetros são as variáveis nos () das funções, enquantos os argumentos são os valores passados na chamada da função. ARGUMENTO É O VALOR PASSADO PARA O PARÂMETRO. ;) */
+
+console.log("\n") // ***************
+
+/* QUANDO O NOME DO ATRIBUTO DENTRO DO OBJETO FOR RECEBER O PARÂMETRO E OS DOIS TIVEREM O MESMO NOME, BASTA VOCÊ POR O NOME DE UM NOME. VEJA ABAIXO: */
+
+function criarPessoa(nome, sobrenome, idade) {
+    return {
+        nome,
+        sobrenome,
+        idade
+    };
+}
+
+const pessoinha1 = criarPessoa("Max", "Santos", 17);
+
+console.log(`${pessoinha1.nome} ${pessoinha1.sobrenome} é lindo e tem ${pessoinha1.idade} anos de idade.`);
+
+
+console.log("\n") // ***************
+
+
+const criarPessoaLinda = {
+    nome: "Max", sobrenome: "Santos", idade: 17,
+
+    fala() {
+        console.log(`${this.nome} ${this.sobrenome} tem ${this.idade} anos. Ele é gostosão!!! ;)`)
+    },
+
+    incrementaIdade() {
+        ++this.idade;
+    }
+};
+
+criarPessoaLinda.fala();
+criarPessoaLinda.incrementaIdade();
+criarPessoaLinda.fala();
+criarPessoaLinda.incrementaIdade();
+criarPessoaLinda.fala();
+
+/* this. referencia um objeto (this = esse -> esse.objeto). Funciona dentro do bloco do objeto (this.indice). */
+
+/* ATENÇÃO!!! Fique atendo para separar com vírgula os atributos, funções e etc, como tem acima. */
 
