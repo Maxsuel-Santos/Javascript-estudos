@@ -120,3 +120,4 @@ console.log( metade(81) );
 console.log( metade(225) );
 console.log( metade(18) );
 
+/* (ACIMA) Caso a função tenha uma só linha, pode usar a nomeclatura acima: const metade = n => n / 2; */
