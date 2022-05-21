@@ -26,12 +26,13 @@
 
             <article>
                 <p>Peso</p>
-                <input type="text" class="peso" id="input" required>
+                <input type="number" class="peso" id="input" step=".01" required> 
+                <!-- step=".01" aceita até 2 casas decimais -->
             </article>
 
             <article>
                 <p>Altura</p>
-                <input type="text" class="altura" id="input" required>
+                <input type="number" class="altura" id="input" step=".01" required>
             </article>
             
             <button onclick="dontReload();">Enviar</button>
