@@ -116,13 +116,13 @@ section > button:focus {
     outline: 0;
 }
 
-button {
+form button {
     background-color: var(--roxo);
     color: #fff;
     cursor: pointer;
     margin-top: 1.2rem;
     font-size: 16px;
-    height: 150px;
+    height: 2.3rem;
 }
 
 button:hover {
