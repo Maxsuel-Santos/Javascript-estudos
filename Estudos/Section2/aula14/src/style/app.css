@@ -65,6 +65,16 @@ body {
     animation: animation 2s ease-in-out forwards;
 }
 
+svg {
+    position: absolute;
+    margin: .3rem .3rem;
+    transform: scale(75%);
+}
+
+form input {
+    text-indent: 1.9rem;
+}
+
 #main {
     margin-right: 3rem;
 }
