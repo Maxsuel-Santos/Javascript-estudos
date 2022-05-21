@@ -6,6 +6,24 @@
     --roxoDark: #54007f;
 }
 
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--roxo);
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--roxoDark);
+}
+
 *, ::after, ::before {
     margin: 0;
     padding: 0;
@@ -61,6 +79,10 @@ body {
     font-weight: 500;
 }
 
+#content > p > strong {
+    color: var(--roxoDark);
+}
+
 article {
     margin-top: 1.2rem;
 }
@@ -83,8 +105,10 @@ section > button {
     width: 100%;
     height: 2rem;
     border-radius: 4px;
-    box-shadow: inset 1px 1px 1px #0000004b, 
-    inset -1px -1px 1px #0000004b;
+    box-shadow: 1px 1px 3px #0000004b, 
+    inset -1px -1px 3px #0000004b,
+    inset 1px 1px 3px #0000004b,
+    -1px -1px 3px #0000004b;
 }
 
 section > article > input:focus, 
@@ -114,7 +138,6 @@ button:hover {
         transform: none;
         justify-content: center;
         align-items: center;
-
     }
 
     #main, #content {
