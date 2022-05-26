@@ -1,0 +1,40 @@
+#main {
+    
+}
+
+#weight {
+    grid-area: "weight";
+    height: 200px;
+    width: 200px;
+    box-shadow: 2px 2px 20px #0000002c;
+}
+
+#height {
+    grid-area: "height";
+    height: 200px;
+    width: 200px;
+    box-shadow: 2px 2px 20px #0000002c;
+}
+
+.imcTable {
+    grid-area: "imcTable";
+    height: 200px;
+    width: 200px;
+    box-shadow: 2px 2px 20px #0000002c;
+}
+
+input[type=number] {
+    border: 0;
+    text-align: center;
+    font-size: 8.5rem;
+    font-weight: 600;
+    color: $orange;
+}
+
+input::placeholder {
+    color: $orange;
+}
+
+input[type=number]:focus {
+    outline: none;
+}
