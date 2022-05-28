@@ -40,3 +40,19 @@ calcular.addEventListener("click", function() {
     }
     
 });
+
+
+// *****************************************
+
+/*
+// (ABAIXO) Selecionou uma área HTML com a class result.
+const resultado = document.querySelector(".result");
+// (ABAIXO) Criou uma constante p e criou um <p></p> HTML.
+const p = document.createElement("p");
+// (ABAIXO) Adicionou ao <p></p> uma classe - pResult.
+p.classList.add("pResult");
+// (ABAIXO) Adicionou um texto (conteúdo) ao elemento HTML <p>.
+p.innerHTML = "Texto do parágrafo";
+// (ABAIXO) Adicionou o elemento <p> criado ao 'pai' resultado, de class result. Com isso, o <p> agora faz parte da área do .result (article).
+resultado.appendChild(p);
+*/

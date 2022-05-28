@@ -49,8 +49,8 @@ body {
     padding: 2px;
 }
 
-.imcCalc > form > p {
-    margin-bottom: 5px;
+.imcCalc > form > input#peso {
+    margin-bottom: 20px;
 }
 
 .imcCalc > form > input:focus {

@@ -50,13 +50,13 @@
             <h1>Calcule seu IMC</h1>
 
             <form>
-                <p>Peso (kg)</p>
+                <label for="peso">Peso (kg)</label>
                 <input type="number" id="peso" placeholder="00" step=".01" required>
+                
+                <label for="altura">Altura (cm)</label>
+                <input type="number" id="altura" placeholder="0.0" step=".01" required>
 
-                <p>Altura (cm)</p>
-                <input type="number" id="altura" placeholder="00" step=".01" required>
-
-                <button onclick="dontReload();" id="calcular">Calcular</button>
+                <button type="submit" id="calcular">Calcular</button>
             </form>
         </article>
 
