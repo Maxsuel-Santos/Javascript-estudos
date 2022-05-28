@@ -43,6 +43,10 @@ body {
     font-weight: 700;
     border: 1px solid var(--primaryColorDarker);
     border-radius: 5px;
+    box-shadow: inset -1px -1px 6px var(--colorShadow),
+    inset 1px 1px 6px var(--colorShadow);
+    text-indent: 7px;
+    padding: 2px;
 }
 
 .imcCalc > form > p {
@@ -72,4 +76,12 @@ input::placeholder {
 .imcCalc > form > button:hover {
     background-color: var(--primaryColorDarker);
     transition: .3s ease-in-out;
+}
+
+.result {
+    margin-top: 35px;
+    padding: 3px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5px;
 }
